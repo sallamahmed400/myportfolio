@@ -80,3 +80,9 @@
 #Contact{
     background-color: rgb(215, 223, 235);
 }
+#next{
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 0 15px cyan;
+}

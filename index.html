@@ -231,14 +231,17 @@
                     </div>
                   </div>
                   <div class="col-md-6">
-                    <form action="https://formsubmit.co/sallamahmed400@gmail.com" method="POST">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                      <input type="hidden" name="access_key" value="9e018142-6f2e-40b0-8bc0-50119b67eefc">
                       <label for="full"></label>
-                      <input type="text" id="full" name="full" placeholder="full name" class="form-control w-75" required  />
+                      <input type="text" id="full" name="full" placeholder="Full Name" class="form-control w-75" required  />
+                      <label for="phone"></label>
+                      <input type="number" id="phone" name="phone" placeholder="Your phone" class="form-control w-75" required  />
                       <label for="email"></label>
-                      <input type="email" id="email" name="email" placeholder="E-Mail" class="form-control w-75" required  />
-                      <textarea name="message" id="message" name="message" cols="40" rows="8" placeholder="message" style="resize: none;" class="mt-3" required>
+                      <input type="email" id="email" name="email" placeholder=" Your EMail" class="form-control w-75" required  />
+                      <textarea name="message" id="message" name="message" placeholder="message"  cols="40" rows="8"  style="resize: none;" class="mt-3" required>
                       </textarea>
-                       <button type="submit"  class="btn btn-outline-info mt-5"> Submit</button>
+                       <button type="submit"  class="btn btn-outline-danger mt-5" id="next"> Submit</button>
                      
                       
                     </form>
